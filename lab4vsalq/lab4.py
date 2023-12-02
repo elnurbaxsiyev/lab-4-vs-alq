@@ -30,7 +30,7 @@ for i in range(len(lst2)):
     if (i+1) % 2 == 0:
         b.append(lst2[i])
 
-print('Çift indeksli elemanlar:', b)
+print('Çüt   yerlerde yerlesenler:', b)
 
 with open('file.txt', 'a') as f:
     s = str(len(b))
